@@ -32,7 +32,7 @@ header {
 nav {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
+  padding: 10px 40px;
   align-items: center;
 }
 .logo {
@@ -54,24 +54,104 @@ nav ul {
 }
 
 /* main section */
-main{
+main {
   position: relative;
   top: 69px;
-  
 }
 
-.main{
+.main {
   height: 700px;
-  width: 1200px;
+  max-width: 1200px;
   margin: 0 auto;
   background-image: url(../Media/img-mission-background.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
-  .container{
+  .container {
     background-color: black;
     width: 100%;
     padding: 15px;
   }
+}
+
+/* Featured tea section */
+.feature {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 50px;
+
+  h2 {
+    margin-bottom: 10px;
+  }
+}
+
+.feature img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+}
+
+.boxs {
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+figure {
+  margin: 10px;
+  overflow: hidden;
+}
+
+.location {
+  background-color: red;
+  height: 500px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(../Media/img-locations-background.jpg);
+  background-size: cover;
+  background-position: center;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+
+  h2{
+    font-weight: bolder;
+    font-size: 50px;
+    color: white;
+  }
+}
+
+.tins{
+  display: flex;
+  gap: 40px;
+  
+}
+
+.tin{
+  padding: 40px 0;
+  width: 300px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  
+}
+
+.end{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }

@@ -155,3 +155,8 @@ figure {
   justify-content: space-around;
   align-items: center;
 }
+
+footer{
+  margin: 50px;
+  text-align: left;
+}

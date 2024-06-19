@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background-color: black;
@@ -12,6 +15,7 @@ body {
   opacity: 0.9;
   text-align: center;
 }
+
 a {
   text-decoration: none;
   color: seashell;
@@ -124,30 +128,28 @@ figure {
   align-items: center;
   gap: 40px;
 
-  h2{
+  h2 {
     font-weight: bolder;
     font-size: 50px;
     color: white;
   }
 }
 
-.tins{
+.tins {
   display: flex;
   gap: 40px;
-  
 }
 
-.tin{
+.tin {
   padding: 40px 0;
   width: 300px;
   background-color: black;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
 }
 
-.end{
+.end {
   height: 200px;
   width: 100%;
   display: flex;
@@ -156,7 +158,7 @@ figure {
   align-items: center;
 }
 
-footer{
+footer {
   margin: 50px;
   text-align: left;
 }

@@ -1,9 +1,77 @@
+/* universal styles */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
-  color: red;
-  background-color: bisque;
+  background-color: black;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: seashell;
+}
+
+/* navigation section */
+
+header {
+  height: 69px;
+  border-bottom: 2px solid seashell;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+.logo {
+  height: 50px;
+
+  img {
+    height: 100%;
+  }
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
+
+  li {
+    text-decoration: underline;
+  }
+}
+
+/* main section */
+main{
+  position: relative;
+  top: 69px;
+  
+}
+
+.main{
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url(../Media/img-mission-background.jpg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container{
+    background-color: black;
+    width: 100%;
+    padding: 15px;
+  }
 }
